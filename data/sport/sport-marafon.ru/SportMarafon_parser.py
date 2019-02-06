@@ -17,7 +17,7 @@ sheet.write(0, 0, "Название")
 sheet.write(0, 1, "Цена")
 sheet.write(0, 2, "Описание")
 sheet.write(0, 3, "старая цена")
-sheet.write(0, 4, "путь")
+# sheet.write(0, 4, "путь")
 
 
 site = "https://sport-marafon.ru"
@@ -33,8 +33,9 @@ soup = BeautifulSoup(page, "lxml")
 
 categories = soup.find_all('div', {'class': 'activity-list__activity'})
 for category in categories:
-    try:
-        categoryName = category.find('a', {'class': 'activity-list__name'}).text.strip()
+    t = category.find_all('a', {'class': 'activity-list__name'})
+    if len(t):
+        categoryName = t[0].text.strip()
         print(categoryName)
         subCategories = category.find_all('li', {'class': 'activity-list__item'})
         for subCategory in subCategories:
@@ -49,39 +50,39 @@ for category in categories:
 
                 t = soup.find_all('a', {'class': 'navigate__link navigate__link_arrow navigate__link_next'}, href=True)
                 if len(t):
-                    nextUrl = site + t[0]['href']
-                    # nextUrl = ""
+                    # nextUrl = site + t[0]['href']
+                    nextUrl = ""
                 else:
                     nextUrl = ""
                 for item in items:
-                    url = site + item.find_all('a', {'class': 'product-list__name'},href=True)[0]['href']
-                    page = requests.get(url)
-                    soup = BeautifulSoup(page.text, "lxml")
+                    # url = site + item.find_all('a', {'class': 'product-list__name'},href=True)[0]['href']
+                    # page = requests.get(url)
+                    # soup = BeautifulSoup(page.text, "lxml")
                     try:
-                        name = soup.find('h1', {'class': 'catalog-detail__name'}).text
+                        name = item.find('a', {'class': 'product-list__name'}).text
                         sheet.write(k, 0, name)
 
-                        prices = soup.find_all('div', {'class': 'catalog-detail__price catalog-detail__price_new'})
+                        prices = item.find_all('div', {'class': 'product-list__price product-list__price_new'})
                         if len(prices) < 1:
-                            prices = soup.find_all('div', {'class': 'catalog-detail__price'})
+                            prices = item.find_all('div', {'class': 'product-list__price'})
                         price = re.sub(r"[^\d+]", "", prices[0].text, flags=re.UNICODE)
                         sheet.write(k, 1, price)
 
-                        old_prices = soup.find_all('div', {'class': 'catalog-detail__price catalog-detail__price_old'})
+                        old_prices = item.find_all('div', {'class': 'product-list__price product-list__price_old'})
                         if len(old_prices) > 0:
                             old_price = re.sub(r"[^\d+]", "", old_prices[0].text, flags=re.UNICODE)
                             sheet.write(k, 3, old_price)
 
-                        descr = soup.find('p', {'class': 'catalog-detail__description'}).text
-                        sheet.write(k, 2, descr)
-                        sheet.write(k, 4, categoryName + "+" + subCategoryName)
+                        # descr = item.find('p', {'class': 'catalog-detail__description'}).text
+                        # sheet.write(k, 2, descr)
+                        sheet.write(k, 2, categoryName + "+" + subCategoryName)
 
                         # print(name, price, descr, old_price)
                         k += 1
                     except:
                         print(url)
             # print(k)
-    except:
-        print(category)
+    # except:
+    #     print(category)
 
 workbook.save("SportMarafon.xls")
