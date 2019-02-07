@@ -6,4 +6,3 @@ answer_path = "result.json"
 with open(answer_path) as f:
     rqs = json.load(f)
     for i in rqs:
-        
