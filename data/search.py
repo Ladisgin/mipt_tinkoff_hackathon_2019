@@ -20,7 +20,7 @@ print(offers)
 
 with open(rqs_path) as f:
     rqs = json.load(f)
-    ans = []
+    q = 0
     for rq in rqs:
         deals = []
         print(rq)
@@ -79,6 +79,8 @@ with open(rqs_path) as f:
                     ans_p[i[1]].append(i[2])
                 else:
                     ans_p[i[1]] = [i[2]]
+
+        ans = []
         for i in ans_p:
             pt = "./" + rq["category"] + "/" + i + "/meta.xls"
             try:
@@ -107,8 +109,10 @@ with open(rqs_path) as f:
                 ans_t = [{"Item": "простите но в нашей базе пока нет этого товара вы возможно сможете найти его на этом сайте", "Attributes": "", "price": 0}]
                 ans_p_tr = {"offer": offe, "products": ans_t}
                 ans.append(ans_p_tr)
-    print(ans)
-    t = rqs_path.split('.')
-    pp = "".join(t[0:-1] + ["_ans."] + [t[-1]])
-    with open(pp, 'w', encoding='utf8') as outfile:
-        json.dump(ans, outfile, ensure_ascii=False, indent=2)
+        else:
+            print(ans)
+            t = rqs_path.split('/')
+            pp = "/".join(t[0:-1] + ["answers/ans_" + str(q) + "." + t[-1]])
+            with open(pp, 'w', encoding='utf8') as outfile:
+                json.dump(ans, outfile, ensure_ascii=False, indent=2)
+            q += 1
