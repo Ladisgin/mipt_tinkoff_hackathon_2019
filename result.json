@@ -1,0 +1,1893 @@
+[
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "минимальный"
+    ],
+    "name": [
+      "кроссофка",
+      "бег"
+    ],
+    "original_request": "кроссофки для бега хочу купить с минимальным кэшбеком"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "очки",
+      "плавание"
+    ],
+    "original_request": "очки для плавания купить с максимальным кэшбэком"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мороженный",
+      "самый",
+      "низкий"
+    ],
+    "name": [],
+    "original_request": "купить мороженное по самой низкой цене"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "макдональдс"
+    ],
+    "original_request": "со скидкой макдональдс "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мороженный"
+    ],
+    "name": [],
+    "original_request": "где приобрести мороженное спецпредложение"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "хоккейный"
+    ],
+    "name": [
+      "снаряжение"
+    ],
+    "original_request": "хоккейное снаряжение заказать спецпредложение"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "фрукт"
+    ],
+    "original_request": "где приобрести фрукты с доставкой"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "foodband"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "ананас"
+    ],
+    "original_request": "ананасы заказать скидка"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "foodband"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [],
+    "original_request": "где можно поесть"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мраморный"
+    ],
+    "name": [
+      "говядина"
+    ],
+    "original_request": "мраморная говядина "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "фрукт"
+    ],
+    "original_request": "фрукты хочу купить с максимальным кэшбеком"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "хоккейный"
+    ],
+    "name": [
+      "клюшка"
+    ],
+    "original_request": "хочу купить хоккейную клюшку"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой"
+    ],
+    "name": [
+      "мяч",
+      "пилатес"
+    ],
+    "original_request": "беговые мяч для пилатеса где приобрести со скидкой"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "суша",
+      "акция"
+    ],
+    "original_request": "где где приобрести суши по акции"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "хоккейный",
+      "максимальный"
+    ],
+    "name": [
+      "снаряжение"
+    ],
+    "original_request": "хоккейное снаряжение хочу с максимальным кешбеком"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "ресторан"
+    ],
+    "original_request": "скидки в ресторанах"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой",
+      "горный"
+    ],
+    "name": [
+      "велосипед"
+    ],
+    "original_request": "беговые горный велосипед купить со скидкой"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "очки",
+      "плавание"
+    ],
+    "original_request": "очки для плавания купить с максимальным кэшбэком"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "свежий"
+    ],
+    "name": [
+      "суша"
+    ],
+    "original_request": "свежие суши купить"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "баскетбольный"
+    ],
+    "name": [
+      "кольцо"
+    ],
+    "original_request": "баскетбольное кольцо где можно купить"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "мяч",
+      "пилатес"
+    ],
+    "original_request": "купить купить мяч для пилатеса burton"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "яблочный"
+    ],
+    "name": [
+      "пирог"
+    ],
+    "original_request": "где скушать яблочный пирог"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "биг",
+      "мак"
+    ],
+    "original_request": "где можно купить биг мак с доставкой"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "мясо"
+    ],
+    "original_request": "где заказать мясо с максимальной скидкой"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "недорогой",
+      "беговой"
+    ],
+    "name": [
+      "тренажер"
+    ],
+    "original_request": "недорогой беговой тренажер "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "штука",
+      "яйцо"
+    ],
+    "original_request": "заказать 10 штук яиц"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "макдональдс"
+    ],
+    "original_request": "с максимальным кешбеком макдональдс "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "фрукт"
+    ],
+    "original_request": "фрукты заказать скидка"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой",
+      "дешево"
+    ],
+    "name": [
+      "лыжа",
+      "тысяча"
+    ],
+    "original_request": "где приобрести беговые лыжи до 15 тысяч дешево"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "поблизости",
+      "максимальный"
+    ],
+    "name": [
+      "ресторан",
+      "скидкойом"
+    ],
+    "original_request": "рестораны поблизости с с максимальной скидкойом"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой"
+    ],
+    "name": [
+      "конек"
+    ],
+    "original_request": "беговые коньки до 10000"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "фигурный"
+    ],
+    "name": [
+      "конек"
+    ],
+    "original_request": "хочу где приобрести фигурный коньки burton"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "хоккейный",
+      "максимальный"
+    ],
+    "name": [
+      "снаряжение",
+      "спецпредложениеома"
+    ],
+    "original_request": "хоккейное снаряжение заказать с максимальным спецпредложениеом"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "мяч",
+      "пилатес",
+      "бег"
+    ],
+    "original_request": "мяч для пилатеса для бега"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "foodband"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "ананас"
+    ],
+    "original_request": "ананасы с доставкой где приобрести"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "хоккейный"
+    ],
+    "name": [
+      "клюшка"
+    ],
+    "original_request": "где можно хочу хоккейную клюшку"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "недорогой",
+      "беговой"
+    ],
+    "name": [
+      "тренажер"
+    ],
+    "original_request": "недорогой беговой тренажер "
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "дешево"
+    ],
+    "name": [
+      "одежда",
+      "гантелиа"
+    ],
+    "original_request": "хочу одежду для гантелиа дешевле"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "перчатка",
+      "велоспорт",
+      "акцииом"
+    ],
+    "original_request": "заказать перчатки для велоспорта с по акцииом"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой"
+    ],
+    "name": [
+      "гантель",
+      "партер"
+    ],
+    "original_request": "беговые гантели где приобрести у партеров со скидкой"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "фигурный",
+      "недорого"
+    ],
+    "name": [
+      "конек"
+    ],
+    "original_request": "хочу где приобрести фигурный коньки недорого"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "недорогой",
+      "беговой"
+    ],
+    "name": [
+      "тренажер"
+    ],
+    "original_request": "недорогой беговой тренажер "
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "свежий"
+    ],
+    "name": [
+      "суша"
+    ],
+    "original_request": "свежие суши где можно купить"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "гантель"
+    ],
+    "original_request": "гантели хочу купить с кешбеком"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "велосипедный"
+    ],
+    "name": [
+      "комплект",
+      "перчатка"
+    ],
+    "original_request": "комплект велосипедных перчаток"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "очки",
+      "плавание"
+    ],
+    "original_request": "очки для плавания где приобрести с максимальным кэшбэком"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "свежий",
+      "яблочный"
+    ],
+    "name": [
+      "пирог"
+    ],
+    "original_request": "свежие яблочный пирог купить"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "поблизости"
+    ],
+    "name": [
+      "ресторан",
+      "дешевоом"
+    ],
+    "original_request": "рестораны поблизости с дешевоом"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "тренажерный"
+    ],
+    "name": [
+      "одежда",
+      "зал"
+    ],
+    "original_request": "купить одежду для тренажерного зала"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "нужный",
+      "боксерский",
+      "новый"
+    ],
+    "name": [
+      "груша",
+      "зал",
+      "бокс"
+    ],
+    "original_request": "нужны боксерские груши в новый зал бокса"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "боксерский",
+      "новый",
+      "очень",
+      "дешево"
+    ],
+    "name": [
+      "груша"
+    ],
+    "original_request": "где заказать боксерские груши новые очень дешево"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "фрукт"
+    ],
+    "original_request": "фрукты хочу скидка"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "штука",
+      "яйцо"
+    ],
+    "original_request": "хочу купить 10 штук яиц"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "лыжа"
+    ],
+    "original_request": "хочу купить лыжи с максимальной скидкой"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "недорогой",
+      "беговой"
+    ],
+    "name": [
+      "тренажер"
+    ],
+    "original_request": "недорогой беговой тренажер "
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "ресторан"
+    ],
+    "original_request": "скидки в ресторанах"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "поблизости"
+    ],
+    "name": [
+      "ресторан"
+    ],
+    "original_request": "рестораны поблизости кешбек"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "фрукт"
+    ],
+    "original_request": "фрукты хочу с максимальным кэшбеком"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мраморный"
+    ],
+    "name": [
+      "говядина"
+    ],
+    "original_request": "мраморная говядина "
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "мяч",
+      "регби"
+    ],
+    "original_request": "мяч для регби хочу с максимальным кэшбэком"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "боксерский",
+      "новый"
+    ],
+    "name": [
+      "груша",
+      "акция"
+    ],
+    "original_request": "боксерские груши новые хочу по акции"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "поблизости",
+      "дешевый"
+    ],
+    "name": [
+      "ресторан"
+    ],
+    "original_request": "рестораны поблизости дешевле чем у других"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "недорогой",
+      "беговой"
+    ],
+    "name": [
+      "тренажер"
+    ],
+    "original_request": "недорогой беговой тренажер "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "дешево"
+    ],
+    "name": [
+      "мясо"
+    ],
+    "original_request": "где хочу мясо дешевле"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "самый",
+      "низкий"
+    ],
+    "name": [
+      "макдональдс"
+    ],
+    "original_request": "по самой низкой цене макдональдс "
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "мандарин"
+    ],
+    "original_request": "где приобрести мандарины с доставкой"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "недорогой",
+      "беговой"
+    ],
+    "name": [
+      "тренажер"
+    ],
+    "original_request": "недорогой беговой тренажер "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мороженный"
+    ],
+    "name": [
+      "полцены"
+    ],
+    "original_request": "купить мороженное за полцены"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой",
+      "боксерский",
+      "новый"
+    ],
+    "name": [
+      "груша"
+    ],
+    "original_request": "беговые боксерские груши новые хочу кешбек"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "волейбольный"
+    ],
+    "name": [
+      "мяч"
+    ],
+    "original_request": "купить мяч волейбольный burton"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "велосипедный"
+    ],
+    "name": [
+      "комплект",
+      "перчатка"
+    ],
+    "original_request": "комплект велосипедных перчаток"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "поблизости"
+    ],
+    "name": [
+      "ресторан",
+      "кешбеком"
+    ],
+    "original_request": "рестораны поблизости с с кешбекомом"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "foodband"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [],
+    "original_request": "где можно поесть"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "яблочный"
+    ],
+    "name": [
+      "пирог"
+    ],
+    "original_request": "яблочный пирог где приобрести"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "дешевый"
+    ],
+    "name": [
+      "макдональдс"
+    ],
+    "original_request": "дешевле чем у других макдональдс "
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "биг",
+      "мак"
+    ],
+    "original_request": "биг мак хочу спецпредложение"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "велотренажер"
+    ],
+    "original_request": "хочу купить приобрести велотренажер кешбек"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "штука",
+      "яйцо"
+    ],
+    "original_request": "хочу 10 штук яиц"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "нужный",
+      "боксерский",
+      "новый"
+    ],
+    "name": [
+      "груша",
+      "зал",
+      "бокс"
+    ],
+    "original_request": "нужны боксерские груши в новый зал бокса"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "ресторан"
+    ],
+    "original_request": "скидки в ресторанах"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "велосипедный"
+    ],
+    "name": [
+      "комплект",
+      "перчатка"
+    ],
+    "original_request": "комплект велосипедных перчаток"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "нужный",
+      "боксерский",
+      "новый"
+    ],
+    "name": [
+      "груша",
+      "зал",
+      "бокс"
+    ],
+    "original_request": "нужны боксерские груши в новый зал бокса"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "пицца"
+    ],
+    "original_request": "пицца где кешбек"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "мяч",
+      "пилатес",
+      "бег"
+    ],
+    "original_request": "мяч для пилатеса для бега"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "профессиональный"
+    ],
+    "name": [
+      "одежда",
+      "роликиа"
+    ],
+    "original_request": "хочу одежду для профессиональные роликиа с кешбеком"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "недорогой",
+      "беговой"
+    ],
+    "name": [
+      "тренажер"
+    ],
+    "original_request": "недорогой беговой тренажер "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "штука",
+      "яйцо"
+    ],
+    "original_request": "заказать 10 штук яиц"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой",
+      "фигурный"
+    ],
+    "name": [
+      "конек"
+    ],
+    "original_request": "беговые фигурный коньки до 10000"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мраморный"
+    ],
+    "name": [
+      "говядина"
+    ],
+    "original_request": "мраморная говядина "
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "профессиональный"
+    ],
+    "name": [
+      "ролик"
+    ],
+    "original_request": "хочу где профессиональные ролики burton"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "дартс"
+    ],
+    "original_request": "хочу купить дартс"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "тренажерный"
+    ],
+    "name": [
+      "одежда",
+      "зал"
+    ],
+    "original_request": "купить одежду для тренажерного зала"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "перчатка",
+      "велоспорт",
+      "спецпредложениеома"
+    ],
+    "original_request": "заказать перчатки для велоспорта с спецпредложениеом"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "дешевый"
+    ],
+    "name": [
+      "пицца"
+    ],
+    "original_request": "пицца где дешевле чем у других"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "хоккейный"
+    ],
+    "name": [
+      "клюшка"
+    ],
+    "original_request": "хочу купить можно купить хоккейную клюшку"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "дешево"
+    ],
+    "name": [
+      "перчатка",
+      "велоспорт"
+    ],
+    "original_request": "заказать перчатки для велоспорта дешевле"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "мяч",
+      "регби"
+    ],
+    "original_request": "мяч для регби хочу купить с максимальным кэшбэком"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "вок"
+    ],
+    "original_request": "вок где приобрести"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мраморный"
+    ],
+    "name": [
+      "говядина"
+    ],
+    "original_request": "мраморная говядина "
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "суша"
+    ],
+    "original_request": "где суши"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "очень",
+      "дешево"
+    ],
+    "name": [
+      "лыжа"
+    ],
+    "original_request": "хочу лыжи очень дешево"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "мяч",
+      "пилатес"
+    ],
+    "original_request": "мяч для пилатеса addidas"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "нужный",
+      "боксерский",
+      "новый"
+    ],
+    "name": [
+      "груша",
+      "зал",
+      "бокс"
+    ],
+    "original_request": "нужны боксерские груши в новый зал бокса"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "яблочный"
+    ],
+    "name": [
+      "пирог"
+    ],
+    "original_request": "яблочный пирог где приобрести"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "очки",
+      "плавание"
+    ],
+    "original_request": "очки для плавания хочу с максимальным кэшбэком"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "конек"
+    ],
+    "original_request": "где коньки burton"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [],
+    "name": [
+      "макдональдс"
+    ],
+    "original_request": "с кешбеком макдональдс "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "очень",
+      "дешево"
+    ],
+    "name": [
+      "ананас"
+    ],
+    "original_request": "где заказать ананасы очень дешево"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "поблизости"
+    ],
+    "name": [
+      "ресторан",
+      "дешевоом"
+    ],
+    "original_request": "рестораны поблизости с дешевоом"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "поблизости",
+      "максимальный"
+    ],
+    "name": [
+      "ресторан",
+      "скидкойом"
+    ],
+    "original_request": "рестораны поблизости с с максимальной скидкойом"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "iherb",
+      "gold-standart.com"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "горный",
+      "самый",
+      "выгодный"
+    ],
+    "name": [
+      "велосипед"
+    ],
+    "original_request": "хочу можно найти велосипед горный 2015 по самой выгодной цене?"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "nike.com",
+      "double-sports"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "лыжный"
+    ],
+    "name": [
+      "куртка",
+      "мембрана"
+    ],
+    "original_request": "где хочу лыжную куртку с мембраной"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "самый",
+      "низкий"
+    ],
+    "name": [
+      "макдональдс"
+    ],
+    "original_request": "по самой низкой цене макдональдс "
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "хоккейный"
+    ],
+    "name": [
+      "клюшка"
+    ],
+    "original_request": "хочу купить хоккейную клюшку"
+  },
+  {
+    "category": "food",
+    "customers": [
+      "abrikos",
+      "iherb.com",
+      "auchan"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "мороженный"
+    ],
+    "name": [
+      "акция"
+    ],
+    "original_request": "купить мороженное по акции"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой",
+      "максимальный"
+    ],
+    "name": [
+      "лыжа",
+      "тысяча"
+    ],
+    "original_request": "хочу купить беговые лыжи до 15 тысяч с максимальным кешбеком"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "одежда",
+      "сноуборд",
+      "дешевлеома"
+    ],
+    "original_request": "где одежду для сноуборда с максимальным дешевлеом"
+  },
+  {
+    "category": "sport",
+    "customers": [
+      "pro-bike",
+      "sport-marafon.ru",
+      "tramontana.ru"
+    ],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "беговой",
+      "максимальный"
+    ],
+    "name": [
+      "лыжа",
+      "тысяча"
+    ],
+    "original_request": "где беговые лыжи до 15 тысяч с максимальным кешбеком"
+  },
+  {
+    "category": "sport",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "максимальный"
+    ],
+    "name": [
+      "очки",
+      "плавание"
+    ],
+    "original_request": "очки для плавания хочу купить с максимальным кэшбэком"
+  },
+  {
+    "category": "food",
+    "customers": [],
+    "price_from": 0,
+    "price_to": 0,
+    "attributes": [
+      "сладкий",
+      "дешевый"
+    ],
+    "name": [
+      "стол"
+    ],
+    "original_request": "заказать сладкий стол дешевле чем у других"
+  }
+]
