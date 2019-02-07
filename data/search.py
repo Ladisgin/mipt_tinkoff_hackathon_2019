@@ -2,14 +2,7 @@ from fuzzywuzzy import fuzz
 import json
 import os
 import xlrd
-import gensim
-# import difflib
 import textdistance
-import nltk
-import numpy
-import sklearn
-import gensim.models.keyedvectors as word2vec
-# from weighted_levenshtein import lev, osa, dam_lev
 
 rqs_path = "/Users/kalugin/git_proj/mipt_tinkoff_hackathon_2019/data/asks.json"
 
@@ -24,13 +17,6 @@ offers = []
 for i in categories:
     offers += [f.path for f in os.scandir(i) if f.is_dir()]
 print(offers)
-
-
-# path = './GoogleNews-vectors-negative300.bin'
-# path = './180/model.bin'
-# model = Word2Vec(common_texts, size=100, window=5, min_count=1, workers=4)
-# model.save("word2vec.model")
-# model = word2vec.KeyedVectors.load_word2vec_format(path, binary=True)
 
 with open(rqs_path) as f:
     rqs = json.load(f)
@@ -59,18 +45,27 @@ with open(rqs_path) as f:
                 if(float(rq["price_to"]) > price_float and float(rq["price_from"]) < price_float):
                     cur_w = 0
                     k = 0
-                    # cur_w = name_w * (fuzz.ratio(name, rq["name"]) + 1) #atr_w * fuzz.token_set_ratio(discr, rq["attributes"])
-                    # cur_w *= 1 / (1 + abs(textdistance.levenshtein(name.lower(), rq["name"].lower())))
-                    # cur_w += nltk.edit_distance(name, rq["name"])
                     t = path.lower().split("~")
                     for i in rq["name"].split():
                         o = str(i).lower().strip()
-                        if str(name).lower()[:max(int(len(str(name)) * 0.8), 4)].count(o) or str(path).lower().count(o):
-                            cur_w += 1
+                        # if str(name).lower()[:max(int(len(str(name)) * 0.8), 4)].count(o) or str(path).lower().count(o):
+                        #     cur_w += 1
+                        l = name.split()
+                        for j in range(len(l)):
+                            m = str(l[j]).lower().strip()
+                            d = textdistance.levenshtein(o, m)
+                            if(d < 3):
+                                cur_w += 1 / (j/3 + d + 1)
 
-                        cur_w += str(name).lower().split(" ")[:2].count(o)
+                        # l = path.split("~")
+                        # for j in range(len(l)):
+                        #     m = str(l[j]).lower().strip()
+                        #     d = textdistance.levenshtein(o, m)
+                        #     if (d < 3):
+                        #         cur_w += 1 / (len(l) - j + d + 1)
 
-                    if (cur_w/len(rq["name"].split())) > 0.5:
+
+                    if (cur_w/len(rq["name"].split())) > 0.3:
                         deals.append([cur_w, p, {"Item": name, "Attributes": path  + "\n" + discr, "price": price}])
         deals = sorted(deals, key=lambda x : (-x[0], len(x[2]['Item'])))
         deals = deals[:5]
@@ -95,21 +90,22 @@ with open(rqs_path) as f:
             offe = {"offer": t[0], "web": t[1], "cashback": t[2], "period": t[3], "offer_type": t[4], "advert_text":t[5]}
             ans_p_tr = {"offer":offe, "products":ans_p[i]}
             ans.append(ans_p_tr)
-        for p in rq["customers"][0:2]:
-            pt = "./" + rq["category"] + "/" + i + "/meta.xls"
-            try:
-                rb = xlrd.open_workbook(pt, formatting_info=True)
-            except FileNotFoundError:
-                print("not open: " + pt)
-                continue
-            sheet_r = rb.sheet_by_index(0)
-            t = sheet_r.row_values(1)
+        if(len(ans_p) == 0):
+            for p in rq["customers"][0:2]:
+                pt = "./" + rq["category"] + "/" + p + "/meta.xls"
+                try:
+                    rb = xlrd.open_workbook(pt, formatting_info=True)
+                except FileNotFoundError:
+                    print("not open: " + pt)
+                    continue
+                sheet_r = rb.sheet_by_index(0)
+                t = sheet_r.row_values(1)
 
-            offe = {"offer": t[0], "web": t[1], "cashback": t[2], "period": t[3], "offer_type": t[4],
-                    "advert_text": t[5]}
-
-            ans_p_tr = {"offer": offe, "products": ans_p[i]}
-            ans.append(ans_p_tr)
+                offe = {"offer": t[0], "web": t[1], "cashback": t[2], "period": t[3], "offer_type": t[4],
+                        "advert_text": t[5]}
+                ans_t = [{"Item": "простите но в нашей базе пока нет этого товара вы возможно сможете найти его на этом сайте", "Attributes": "", "price": 0}]
+                ans_p_tr = {"offer": offe, "products": ans_t}
+                ans.append(ans_p_tr)
     print(ans)
     t = rqs_path.split('.')
     pp = "".join(t[0:-1] + ["_ans."] + [t[-1]])
