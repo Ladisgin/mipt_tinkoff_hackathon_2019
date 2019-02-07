@@ -48,24 +48,25 @@ with open(rqs_path) as f:
                     t = path.lower().split("~")
                     for i in rq["name"].split():
                         o = str(i).lower().strip()
-                        # if str(name).lower()[:max(int(len(str(name)) * 0.8), 4)].count(o) or str(path).lower().count(o):
-                        #     cur_w += 1
+                        if str(name).lower()[:max(int(len(str(name)) * 0.8), 4)].count(o) or str(path).lower().count(o):
+                            cur_w += 0.9
+
                         l = name.split()
                         for j in range(len(l)):
                             m = str(l[j]).lower().strip()
                             d = textdistance.levenshtein(o, m)
                             if(d < 3):
-                                cur_w += 1 / (j/3 + d + 1)
+                                cur_w += 0.3 / (j/3 + d + 1)
 
-                        # l = path.split("~")
-                        # for j in range(len(l)):
-                        #     m = str(l[j]).lower().strip()
-                        #     d = textdistance.levenshtein(o, m)
-                        #     if (d < 3):
-                        #         cur_w += 1 / (len(l) - j + d + 1)
+                        l = path.split("~")
+                        for j in range(len(l)):
+                            m = str(l[j]).lower().strip()
+                            d = textdistance.levenshtein(o, m)
+                            if (d < 3):
+                                cur_w += 0.3 / (len(l) - j + d + 1)
 
 
-                    if (cur_w/len(rq["name"].split())) > 0.3:
+                    if (cur_w/len(rq["name"].split())) > 0.7:
                         deals.append([cur_w, p, {"Item": name, "Attributes": path  + "\n" + discr, "price": price}])
         deals = sorted(deals, key=lambda x : (-x[0], len(x[2]['Item'])))
         deals = deals[:5]
