@@ -10,14 +10,20 @@ import urllib
 import re
 from lxml import html
 
+def get_value(s):
+    s = re.sub(r"\.+$", "", s)
+    s = re.sub(r",", ".", s)
+    s = re.sub(r"[^\d+\.]", "", s)
+    return s
+
 workbook = xlwt.Workbook()
 
 sheet = workbook.add_sheet('PySheet1', cell_overwrite_ok=True)
 sheet.write(0, 0, "Название")
-sheet.write(0, 1, "Цена")
-sheet.write(0, 2, "Описание")
+sheet.write(0, 1, "Описание")
+sheet.write(0, 2, "Цена")
 sheet.write(0, 3, "старая цена")
-# sheet.write(0, 4, "путь")
+sheet.write(0, 4, "путь")
 
 
 site = "https://sport-marafon.ru"
@@ -50,8 +56,8 @@ for category in categories:
 
                 t = soup.find_all('a', {'class': 'navigate__link navigate__link_arrow navigate__link_next'}, href=True)
                 if len(t):
-                    # nextUrl = site + t[0]['href']
-                    nextUrl = ""
+                    nextUrl = site + t[0]['href']
+                    # nextUrl = ""
                 else:
                     nextUrl = ""
                 for item in items:
@@ -62,27 +68,26 @@ for category in categories:
                         name = item.find('a', {'class': 'product-list__name'}).text
                         sheet.write(k, 0, name)
 
+                        # descr = item.find('p', {'class': 'catalog-detail__description'}).text
+                        # sheet.write(k, 2, descr)
+
                         prices = item.find_all('div', {'class': 'product-list__price product-list__price_new'})
                         if len(prices) < 1:
                             prices = item.find_all('div', {'class': 'product-list__price'})
-                        price = re.sub(r"[^\d+]", "", prices[0].text, flags=re.UNICODE)
-                        sheet.write(k, 1, price)
+                        price = get_value(prices[0].text)
+                        sheet.write(k, 2, price)
 
                         old_prices = item.find_all('div', {'class': 'product-list__price product-list__price_old'})
                         if len(old_prices) > 0:
-                            old_price = re.sub(r"[^\d+]", "", old_prices[0].text, flags=re.UNICODE)
+                            old_price = get_value(old_prices[0].text)
                             sheet.write(k, 3, old_price)
 
-                        # descr = item.find('p', {'class': 'catalog-detail__description'}).text
-                        # sheet.write(k, 2, descr)
-                        sheet.write(k, 2, categoryName + "+" + subCategoryName)
+                        sheet.write(k, 4, categoryName + "~" + subCategoryName)
 
                         # print(name, price, descr, old_price)
                         k += 1
                     except:
                         print(url)
-            # print(k)
-    # except:
-    #     print(category)
+            print(k)
 
 workbook.save("SportMarafon.xls")

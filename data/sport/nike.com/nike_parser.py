@@ -10,13 +10,20 @@ import urllib
 import re
 from lxml import html
 
+def get_value(s):
+    s = re.sub(r"\.+$", "", s)
+    s = re.sub(r",", ".", s)
+    s = re.sub(r"[^\d+\.]", "", s)
+    return s
+
 workbook = xlwt.Workbook()
 
 sheet = workbook.add_sheet('PySheet1', cell_overwrite_ok=True)
 sheet.write(0, 0, "Название")
-sheet.write(0, 1, "Цена")
-sheet.write(0, 2, "Описание")
+sheet.write(0, 1, "Описание")
+sheet.write(0, 2, "Цена")
 sheet.write(0, 3, "старая цена")
+sheet.write(0, 4, "путь")
 
 
 # url = "https://store.nike.com/ru/ru_ru/?ipp=120/"
@@ -39,16 +46,28 @@ for item in items:
     soup = BeautifulSoup(page.text, "lxml")
     try:
         name = soup.find('h1', {'id': 'pdp_product_title'}).text
+        name = re.sub(r"nike+", "", name)
+        name = re.sub(r"Nike+", "", name)
+        name = "nike" + name
         sheet.write(k, 0, name)
 
-        prices = soup.find_all('div', {'data-test': 'product-price'})
-        price = re.sub(r"[^\d+]", "", prices[0].text, flags=re.UNICODE)
-        old_price = re.sub(r"[^\d+]", "", prices[1].text, flags=re.UNICODE)
-        sheet.write(k, 1, price)
-        sheet.write(k, 3, old_price)
+        t = soup.find_all('div', {'class': 'description-preview'})
+        if len(t):
+            discr = t[0].find('p').text
+            sheet.write(k, 1, discr)
 
-        descr = soup.find('h2', {'data-test': 'product-sub-title'}).text
-        sheet.write(k, 2, descr)
+        prices = soup.find_all('div', {'data-test': 'product-price'})
+        price = get_value(prices[0].text)
+        sheet.write(k, 2, price)
+
+        if len(prices) > 1:
+            old_price = get_value(prices[1].text)
+            sheet.write(k, 3, old_price)
+
+        path = soup.find('h2', {'data-test': 'product-sub-title'}).text
+        path = re.sub(r"nike+", "", path)
+        path = re.sub(r"Nike+", "", path)
+        sheet.write(k, 4, path)
 
         # print(name, price, descr, old_price)
         k += 1

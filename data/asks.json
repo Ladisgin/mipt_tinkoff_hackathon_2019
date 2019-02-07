@@ -1,0 +1,29 @@
+[
+  {
+    "category":"sport",
+    "customers" : ["nike.com", "tramontana.ru"],
+    "price_from": "1000",
+    "price_to": "100000",
+    "attributes": "хорошие",
+    "name": "кроссовки nike",
+    "original_request": "хочу новые кроссовки nike c кешбеком "
+  },
+  {
+    "category":"sport",
+    "customers" : ["tramontana.ru", "pro-bike"],
+    "price_from": "1000",
+    "price_to": "40000",
+    "attributes": "хорошие",
+    "name": "велосипед детский",
+    "original_request": "хочу новые велик "
+  },
+  {
+    "category": "food",
+    "customers" : ["auchan", "foodband", "abrikos", "iherb.com"],
+    "price_from": "0",
+    "price_to": "100",
+    "attributes": "вкусное",
+    "name": "молоко",
+    "original_request": "где купить вкусное молоко"
+  }
+]
